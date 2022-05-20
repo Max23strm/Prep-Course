@@ -1,0 +1,25 @@
+body{
+    background-image: url("https://hipertextual.com/wp-content/uploads/2022/04/batman-unburied-scaled.jpeg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+div{
+
+}
+h1{
+    color:Purple
+}
+#thirdDiv{
+    height: 600px;
+    width: 500px;
+    background-color: aqua;
+    padding: 50px;
+    border:2px solid red
+}
+#spanId{
+    font-size: 18px;
+    margin: 50px;
+}

@@ -1,0 +1,71 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    border: 1px solid black;
+    padding: 0 2rem;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #14110F;
+    color: #A1E8AF;
+    height: 200px;
+    align-items: center;
+    margin: auto;
+}
+header:first-child{
+    height: 100;
+}
+header:first-child img{
+    /* width: 50%; */
+    /* clip-path: circle(50% at 50% 50%); */
+    height: 150px;
+    padding: 0.5rem;
+    border: 2px solid #A1E8AF;
+}
+.principal{
+    display: grid;
+    grid-template-columns: 0.2fr 0.8fr;
+    gap: 0;
+}
+.principal aside{
+    padding-top: 2rem;
+    background-color: #A1E8AF;
+    color:#14110F;
+}
+aside section{
+    margin-left: 2rem;
+}
+
+.principal article{
+    color:#14110F;
+    margin: 1rem 2rem;
+}
+article section h3,article section p{
+    margin: 0;
+}
+article section h3{
+    font-size: 2rem;
+}
+.edu section{
+    margin:1rem 0
+}
+.edu section h5{
+    margin: 0;
+}
+.edu section div h6{
+    margin: 0;
+}
+.exp{
+    margin: 1rem 0;
+}
+.exp div h5{
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.exp div h6{
+    margin:0.5rem 0
+}
